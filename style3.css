@@ -1,0 +1,81 @@
+@font-face {font-family: Lato; 
+			src:url('Lato-Black.ttf') format
+			("truetype");}
+@font-face {font-family: Sherlyn; 
+			src:url('Sherlyn.otf') format
+			("opentype");}
+
+			*{
+				margin:0;
+				padding: 0;
+			}
+
+			.navbar{
+				list-style-type: none;
+				margin:-8px;
+				padding: 0px;
+				overflow: hidden;
+				background-color: #007f00;
+				font-family: Lato;
+				font-size:20px;
+				font-weight: bold;
+				padding: 25px 25px;
+				position: relative;
+			}
+
+			.list{
+				float:right;
+			}
+			.nav-a{
+				display:block;
+				padding: 14px 16px;
+				font-size: 20px;
+				text-decoration: none;
+				color:#fff;
+				text-shadow: 0px 1px 50px#000000;
+				transition: color 0.3s ease-in-out;
+			}
+			.nav-a:hover{
+				color:#00e500;
+			}
+			.header1{
+				float: left;
+				color:#fff;
+				font-family:Sherlyn;
+				letter-spacing: 2px;
+				font-size: 30px;
+				transition: color 0.3s ease-in-out;
+
+			}
+			.header1:hover{
+				color:#00e500;
+			}
+			#about{
+				color:#00e500;
+			}
+			body{
+				background-image: url(menubg.jpg);
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: 100% 100%;
+			}
+			.text{
+				margin:auto;
+				margin-left: 200px;
+				width: 50%;
+				padding: 150px;
+				color:#fff;
+				text-align: center;
+				font-family: Lato;
+				font-size: 25px;
+			}
+			.about{
+				font-family: Lato;
+				font-size: 35px;
+			}
+			p{
+				margin-top: 10px;
+			}
+			a{
+				color:#00e500;
+			}
